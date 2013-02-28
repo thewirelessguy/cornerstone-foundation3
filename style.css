@@ -1,0 +1,59 @@
+/* 
+Theme Name: Cornerstone, for WordPress
+Theme URI: http://www.thewirelessguy.co.uk
+Description: A Responsive Starter Theme
+Author: Stephen Mullen
+Author URI: http://www.thewirelessguy.co.uk
+Version: 1.0
+License: MIT License
+License URI: http://www.opensource.org/licenses/mit-license.php
+*/
+
+@import url("css/foundation.min.css");
+
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Images
+:: Posts
+:: Typography
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Images
+----------------------------------------- */
+
+.widget img {
+    max-width: 97.5%; /* Fluid images for posts, comments, and widgets */
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+    height: auto; /* Make sure images with WordPress-added height and width >attributes are scaled correctly */
+}
+img.size-full {
+    max-width: 97.5%;
+    width: auto; /* Prevent stretching of full-size images with height and >>width attributes in IE8 */
+}
+
+.wp-caption { max-width: 100%; }
+
+/* -----------------------------------------
+   Posts
+----------------------------------------- */
+
+.author-box h5 {margin-top:0px;}
+.author-box .author_gravatar {margin-right:10px;}
+.author-box p {font-size:14px; font-size:1.4rem;}
+
+article .th {margin-bottom:10px; margin-bottom:1rem;}
+
+.alignleft {float:left;}
+.alignright {float:right;}
+
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
