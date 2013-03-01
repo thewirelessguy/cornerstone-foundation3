@@ -44,7 +44,6 @@
 
 					<!-- Navigation -->
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'nav-bar', 'fallback_cb' => 'foundation_page_menu', 'container' => 'nav', 'container_class' => 'twelve columns', 'walker' => new foundation_navigation() ) ); ?>
- 				    <?php wp_nav_menu( array( 'theme_location' => 'header-menu','menu_class' => 'nav-bar', 'container' => 'nav') ); ?>
 				
 				</div>
 				<!-- Header Column -->
