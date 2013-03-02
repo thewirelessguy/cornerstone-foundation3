@@ -1,12 +1,16 @@
-# Cornerstone responsive starter theme for WordPress
+# Cornerstone (Foundation 3) responsive starter theme for WordPress
 
 
-Cornerstone is a WordPress starter theme based on the Zurb Foundation Responsive Framework. Cornerstone aims to provide a lightweight starter theme that is responsive and SEO friendly that web designers can build great looking websites on.
+Cornerstone (foundation 3) is a WordPress starter theme based on the Zurb Foundation Responsive Framework. Cornerstone aims to provide a lightweight starter theme that is responsive and SEO friendly that web designers can build great looking websites on.
+
+This version of Cornerstone is based on ZURB Foundation 3. For a version of Cornerstone based on Foundation 4 go to https://github.com/thewirelessguy/cornerstone
+
+This repo is being maintained seperately from the main [Cornerstone](https://github.com/thewirelessguy/cornerstone) theme as Foundation 4 removes support for IE8. It won't have as many features as the main Cornerstone theme, but will receive bug fixes from time to time.
 
 
 ## Download
 
-Clone the git repo `https://github.com/thewirelessguy/cornerstone.git` or [download the archive](https://github.com/thewirelessguy/cornerstone/archive/master.zip). 
+Clone the git repo `https://github.com/thewirelessguy/cornerstone-foundation3.git` or [download the archive](https://github.com/thewirelessguy/cornerstone-foundation3/archive/master.zip). 
 
 ## Authors
 
