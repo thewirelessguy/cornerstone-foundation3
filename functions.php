@@ -42,7 +42,7 @@ function load_cornerstone_scripts() {
 	);
 	wp_enqueue_script(
 		'foundation_modernizr_js',
-		get_template_directory_uri() . '/js/app.js',
+		get_template_directory_uri() . '/js/modernizr.foundation.js',
 		array('foundation_js'),
 		false,
 		true
