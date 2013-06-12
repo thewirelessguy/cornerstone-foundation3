@@ -3,7 +3,7 @@
 // Disable WordPress version reporting as a basic protection against attacks
 function remove_generators() {
 	return '';
-}		
+}
 
 add_filter('the_generator','remove_generators');
 
@@ -40,14 +40,7 @@ function load_cornerstone_scripts() {
 		false,
 		true
 	);
-	wp_enqueue_script(
-		'foundation_modernizr_js',
-		get_template_directory_uri() . '/js/modernizr.foundation.js',
-		array('foundation_js'),
-		false,
-		true
-	);
-}    
+}
 
 add_action('wp_enqueue_scripts', 'load_cornerstone_scripts');
 
@@ -63,7 +56,7 @@ function foundation_menus() {
 			'header-menu' => __( 'Header Menu', 'foundation' )
 		)
 	);
-	
+
 }
 add_action( 'init', 'foundation_menus' );
 
@@ -128,9 +121,9 @@ if (function_exists('register_sidebar')) {
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
-	
+
 	// Footer Sidebar
-	
+
 	register_sidebar(array(
 		'name'=> 'Footer Sidebar',
 		'id' => 'footer_sidebar',
@@ -225,26 +218,26 @@ function SliderContent(){
 
 	$args = array( 'post_type' => 'Orbit');
 	$loop = new WP_Query( $args );
-	
+
 		while ( $loop->have_posts() ) : $loop->the_post();
-		
+
 			if(has_post_thumbnail()) {
-			
+
 				the_post_thumbnail();
-				
+
 			} else {
-			
+
 				echo '<div class="content" style="background:#FFF;">';
-			
+
 					the_title();
 					the_content();
-					
+
 				echo '</div>';
-			
+
 			}
-		
+
 		endwhile;
-		
+
 }
 
 
